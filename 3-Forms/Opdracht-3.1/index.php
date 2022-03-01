@@ -2,14 +2,21 @@
 <html>  
 <body>
 
-<form action="welcome.php" method="post">
-Voornaam: <input type="text" name="Voornaam"><br>
-Achternaam: <input type="text" name="Achternaam"><br>
-Klas: <input type="text" name="Klas"><br>
-Leeftijd: <input type="text" name="Leeftijd"><br>
-Adres: <input type="text" name="Adres"><br>
-Woonplaats: <input type="text" name="Woonplaats"><br>
-<input type="submit">
+
+<form action="/welcome.php" method="post">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname"><br>
+  <label for="fname">Class:</label><br>
+  <input type="text" id="cname" name="cname"><br>
+  <label for="fname">Age:</label><br>
+  <input type="text" id="aname" name="aname"><br>
+  <label for="fname">Adres:</label><br>
+  <input type="text" id="adname" name="adname"><br>
+  <label for="fname">Residence:</label><br>
+  <input type="text" id="rname" name="rname"><br><br>
+  <input type="submit" value="Submit">
 </form>
 
 </body>
